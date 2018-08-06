@@ -98,10 +98,23 @@
     justify-self: center;
     background-color: magenta;
     clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    -webkit-clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
     color: khaki;
     font-family: 'Montserrat';
     font-size: 18px;
     line-height: 22px;
     //box-shadow: 10px 10px 10px 10px rgba(58, 250, 120, 0.527); doesn't seem to work.
 
+}
+//Clock
+.clock {
+    grid-row: 3/4;
+    grid-column: 2/11;
+    z-index: 4;
+    background-color: silver;
+    height: 80%;
+    align-self: end;
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    -webkit-clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    align-content: center;
 }
