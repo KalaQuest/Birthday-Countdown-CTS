@@ -6,6 +6,7 @@
     background-color: blue;
     height: 822px;
     width: 2000px;
+    //justify-items: center;
     &__title {
         z-index: 4;
         grid-row: 1/2;
@@ -69,10 +70,12 @@
 .picker {
     z-index: 4;
     grid-column: 5/10;
+    grid-row: 2/3;
     //background-color: yellow;
     font-size: 88px;
     font-family: 'Hanalei Fill', cursive;
     padding-bottom: 50px;
+    justify-self: center;
     
     
     input {
@@ -85,4 +88,20 @@
            outline: none;
        }
     }
+}
+//Button
+.button {
+    grid-row: 4/5;
+    grid-column: 5/10;
+    height: 50px;
+    width: 350px;
+    justify-self: center;
+    background-color: magenta;
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    color: khaki;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 22px;
+    //box-shadow: 10px 10px 10px 10px rgba(58, 250, 120, 0.527); doesn't seem to work.
+
 }
