@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Picker from './picker';
 
 export default class App extends Component {
   render() {
@@ -12,6 +13,7 @@ export default class App extends Component {
         <div className="grid__skewlighton"></div>
         <div className="grid__skewlightonn"></div>
         <div className="grid__skewlightbox"></div>
+        <Picker/>
       </div>
     );
   }
