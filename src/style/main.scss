@@ -1,3 +1,9 @@
+//Variables that max wanted me to use that I didn't feel like using
+/*
+$ColorBlue: #5188DE;
+$ColorGray: #444;
+$ColorYellow: #F7D754;
+*/
 //base
 .grid {
     display: grid;
@@ -62,9 +68,7 @@
     clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
 
  }   
- &__skewdarkonnn {
 
- }
 }
 //DatePicker
 .picker {
@@ -111,10 +115,36 @@
     grid-row: 3/4;
     grid-column: 2/11;
     z-index: 4;
-    background-color: silver;
+    background-color: silver; //background: ColorGray;
     height: 80%;
     align-self: end;
     clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
     -webkit-clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    display: grid;
+    grid-template-columns: /*repeat(4, 1fr);*/repeat(auto-fit, minmax(150px, 275px));
+    grid-column-gap: 85px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     align-content: center;
+    &__flex {
+        display: flex;
+        flex-direction: column;
+    }
+    &__title {
+       font-size: 22px;
+       line-height: 25px;
+       color: yellow; 
+       font-family: "Roboto Condensed";
+       //text-align: left; I like it more centered above the amounts.
+    }
+    &__amount {
+        font-size: 90px;
+        font-weight: bold;
+        line-height: 115px;
+        color: white;
+        font-family: "Modern Antiqua"
+    }
+
 }

@@ -3,21 +3,21 @@ class Clock extends Component {
     render() {
         return (
             <div className="clock">
-              <div className="clock__days">
+              <div className="clock__days clock__flex">
                 <label className="clock__title">Days</label>
-                <label className="clock__amount">20</label>
+                <label className="clock__amount">300</label>
               </div>
-              <div className="clock__hours">
+              <div className="clock__hours clock__flex">
                 <label className="clock__title">Hours</label>
-                <label className="clock__amount">20</label>
+                <label className="clock__amount">42</label>
               </div>
-              <div className="clock__minutes">
+              <div className="clock__minutes clock__flex">
                 <label className="clock__title">Minutes</label>
-                <label className="clock__amount">20</label>
+                <label className="clock__amount">26</label>
               </div>
-              <div className="clock__seconds">
+              <div className="clock__seconds clock__flex">
                 <label className="clock__title">Seconds</label>
-                <label className="clock__amount">20</label>
+                <label className="clock__amount">22</label>
               </div>
             </div>    
         )
