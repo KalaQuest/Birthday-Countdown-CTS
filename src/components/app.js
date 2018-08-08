@@ -32,7 +32,7 @@ export default class App extends Component {
     return (
       <div className=/*"grid"*/{`${this.state.active ? 'Changegrid' : 'grid'}`} >
         <h1 className="grid__title">"emit lit' rouy txen noissim" Countdown(?)</h1>
-        <div className="grid__skewdarkbox"></div>
+        {/* <div className="grid__skewdarkbox"></div> */}
         <div className="grid__skewdarkonn"></div>
         <div className="grid__skewdarkonnn"></div>
         
