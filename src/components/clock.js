@@ -13,11 +13,11 @@ class Clock extends Component {
               </div>
               <div className="clock__minutes clock__flex">
                 <label className="clock__title">Minutes</label>
-                <label className="clock__amount">26</label>
+                <label className="clock__amount">216</label>
               </div>
               <div className="clock__seconds clock__flex">
                 <label className="clock__title">Seconds</label>
-                <label className="clock__amount">22</label>
+                <label className="clock__amount">20</label>
               </div>
             </div>    
         )

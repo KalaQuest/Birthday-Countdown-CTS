@@ -19,7 +19,7 @@ class Picker extends Component {
       }
     render() {
         return (
-            <div className= "picker">
+            <div className= /*"picker"*/{`${this.state.active ? 'Changepicker' : 'picker'}`}>
                 <DatePicker
                    selected={this.state.startDate}
                    onChange={this.handleChange}
