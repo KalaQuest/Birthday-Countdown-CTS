@@ -39,7 +39,7 @@ export default class App extends Component {
         <div className="grid__skewlighton"></div>
         <div className="grid__skewlightonn"></div>
         <div className="grid__skewlightbox"></div>
-        <Picker/>
+        
         {this.renderItems() }
         
       </div>
